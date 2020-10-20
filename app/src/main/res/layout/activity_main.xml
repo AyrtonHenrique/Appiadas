@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Container"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/Label"
+        android:text="@string/label_joker_hint"
+        android:id="@+id/tvJoker"
+        />
+    <Button
+        style="@style/Button"
+        android:text="@string/button_new_joker"
+        android:id="@+id/btNewJoker"
+        />
+
+</LinearLayout>
